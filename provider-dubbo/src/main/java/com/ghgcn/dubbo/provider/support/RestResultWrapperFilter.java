@@ -22,13 +22,14 @@ public class RestResultWrapperFilter implements ContainerRequestFilter, Containe
     @Override
     public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext)
             throws IOException {
-        request.setCharacterEncoding(StandardCharsets.UTF_8.name());
+        response.setCharacterEncoding(StandardCharsets.UTF_8.name());
         //response.setCharacterEncoding(StandardCharsets.UTF_8.name());
+        
     }
 
     @Override
     public void filter(ContainerRequestContext requestContext) throws IOException {
-        
+        request.setCharacterEncoding(StandardCharsets.UTF_8.name());
     }
 
 }

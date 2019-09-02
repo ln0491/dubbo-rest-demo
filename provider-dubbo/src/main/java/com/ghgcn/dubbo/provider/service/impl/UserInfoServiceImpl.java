@@ -22,7 +22,7 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Path("/add")
     @POST
     @Override
-    public UserInfo addUser( UserInfo userInfo) {
+    public UserInfo addUser(@BeanParam UserInfo userInfo) {
         System.err.println(userInfo);
         return userInfo;
     }

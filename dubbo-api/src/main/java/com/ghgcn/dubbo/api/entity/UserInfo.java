@@ -19,11 +19,11 @@ public class UserInfo implements Serializable {
      * 
      */
     private static final long serialVersionUID = -5150581146883326805L;
-    //@FormParam(value = "userName")
+    @FormParam(value = "userName")
     private String userName;
-    //@FormParam(value = "age")
+    @FormParam(value = "age")
     private Integer age;
-    //@FormParam(value = "birthday")
+    @FormParam(value = "birthday")
     private  Date  birthday;
 
     
