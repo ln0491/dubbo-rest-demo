@@ -3,6 +3,9 @@ package com.ghgcn.dubbo.api.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.ws.rs.Encoded;
+import javax.ws.rs.FormParam;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,11 +19,11 @@ public class UserInfo implements Serializable {
      * 
      */
     private static final long serialVersionUID = -5150581146883326805L;
-
+    //@FormParam(value = "userName")
     private String userName;
-    
+    //@FormParam(value = "age")
     private Integer age;
-    
+    //@FormParam(value = "birthday")
     private  Date  birthday;
 
     

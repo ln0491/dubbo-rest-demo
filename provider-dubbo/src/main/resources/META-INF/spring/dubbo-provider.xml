@@ -15,7 +15,7 @@
 	<dubbo:protocol name="dubbo" port="20889" />
 
 	<dubbo:protocol name="rest" port="9999" server="tomcat"
-		contextpath="provider" accepts="500" />
+		contextpath="provider" accepts="500" extension="com.ghgcn.dubbo.provider.support.RestResultWrapperFilter"/>
 
 	<dubbo:service
 		interface="com.ghgcn.dubbo.api.service.UserInfoService"
