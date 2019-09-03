@@ -5,4 +5,7 @@ public interface ICallHelloService {
 
     
     public String callHello(String name);
+    
+    
+    public String callAnnoHello();
 }
