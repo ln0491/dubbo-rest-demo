@@ -78,7 +78,7 @@
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-client</artifactId>
-			<version>3.9.0.Final</version>
+			<version>3.14.0.Final</version>
 		</dependency>
 		<!--provider xml 序列化 -->
 		<!-- <dependency> 
